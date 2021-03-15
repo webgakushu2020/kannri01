@@ -1,0 +1,174 @@
+﻿*{
+	font-family: "ＭＳ Ｐゴシック";
+}
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+body, .item {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 100%;
+	overflow: auto;
+}
+#header0 {
+	margin: 0;
+	box-shadow:0px 0px 10px;
+	border:1px solid #000;
+	height: 110px;
+	margin-top: -70px;
+	padding: 0px;
+}
+#header {
+	box-shadow:0px 0px 10px;
+	border:1px solid #000;
+	height: 150px;
+	padding: 5px;
+}
+#header1 {
+	box-shadow:0px 0px 10px;
+	border:1px solid #000;
+	height: 180px;
+	padding: 5px;
+}
+#middle {
+}
+
+#left_frame {
+	box-shadow:0px 0px 10px;
+	border:1px solid #000;
+	float: left;
+	width: 20%;
+}
+
+#right_frame {
+	box-shadow:0px 0px 10px;
+	border:1px solid #000;
+}
+
+.spacer {
+	height: 10000px;
+}
+
+input#submit_button {
+	    /* 文字サイズを1.4emに指定 */
+	    font-size: 1.0em;
+ 
+	    /* 文字の太さをboldに指定 */
+	    font-weight: bold;
+ 
+	    /* 縦方向に10px、
+	     * 横方向に30pxの余白を指定 */
+	    padding: 5px 15px;
+
+		width: 200px;
+		height: 30px;
+	}
+input#submit_buttonS {
+	    /* 文字サイズを1.4emに指定 */
+	    font-size: 1.0em;
+ 
+	    /* 文字の太さをboldに指定 */
+	    font-weight: bold;
+ 
+	    /* 縦方向に10px、
+	     * 横方向に30pxの余白を指定 */
+	    padding: 5px 15px;
+
+		width: 150px;
+		height: 30px;
+	}
+
+#midashi {
+	    /* 文字サイズを1.4emに指定 */
+	    font-size: 1.0em;
+ 
+	    /* 文字の太さをboldに指定 */
+	    font-weight: bold;
+ 
+	    /* 縦方向に10px、
+	     * 横方向に30pxの余白を指定 */
+	    padding: 5px 15px;
+		width: 100px;
+		height: 20px;
+
+	}
+#midashi_Kanri {
+	    /* 文字サイズを1.4emに指定 */
+	    font-size: 0.8em;
+ 
+	    /* 文字の太さをboldに指定 */
+	    font-weight: bold;
+ 
+	    /* 縦方向に10px、
+	     * 横方向に30pxの余白を指定 */
+	    padding: 5px 15px;
+		width: 80px;
+		height: 20px;
+
+	}
+#midashi_Ichiran {
+	    /* 文字サイズを1.4emに指定 */
+	    font-size: 1em;
+ 
+	    /* 縦方向に10px、
+	     * 横方向に30pxの余白を指定 */
+	    padding: 5px 15px;
+		width: 80px;
+		height: 20px;
+
+	}
+.inputtype {
+		height: 20px;
+	}
+.selecttype { 
+	width: 150px; 
+	height: 30px; 
+}
+.selecttype2 { 
+	width: 120px; 
+	height: 30px; 
+}
+
+#tbl-bdr table,#tbl-bdr td{
+    border-collapse: collapse;
+    border:1px solid #333;
+    }
+#midashi_Kanri2 {
+	    /* 文字サイズを1.4emに指定 */
+	    font-size: 0.8em;
+ 
+	    /* 文字の太さをboldに指定 */
+	    font-weight: bold;
+ 
+	    /* 縦方向に10px、
+	     * 横方向に30pxの余白を指定 */
+	    padding: 5px 15px;
+		height: 20px;
+
+	}
+#print {
+	border-collapse: collapse;
+	border:1px solid #333;
+	overflow-y : scroll ;
+	}
+
+#td_img {
+    position: relative;
+}
+#deleteimg {
+    position: absolute;
+    Top: 100px;
+    left: 60px;
+}
+
+input[id^="deletefile"],input[id^="deleteimg_sonota"] {
+    font-size: 0.5em;
+}

@@ -1,0 +1,23 @@
+﻿p {
+	cursor:pointer;
+}
+
+.print01{
+    border-collapse: collapse;
+    text-align: left;
+}
+.print02{
+    border-collapse: collapse;
+    text-align: right;
+}
+.print03{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.print01 td{
+    padding: 1px;
+    vertical-align: top;
+    border: 1px solid #808080;
+}
+
