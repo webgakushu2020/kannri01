@@ -15,6 +15,7 @@
 //	ErrFlg・・・更新時にエラーがある場合１
 //	EntryFlg・・・「入力済」ボタンが押下されたら１　初期値１
 //	AllDayFlg・・・「全日」ボタンが押下されたら１　初期値０
+//テスト２
 //*******************************************************************************
 ?>
 
@@ -670,7 +671,6 @@ function SessionClear2(){
 //----------------------------------------------------
 function GetData()
 {
-	print("ここ④");
 	$JissekiHSum=0;
 	$JissekiMSum=0;
 	$KaisuSum="";
@@ -692,7 +692,7 @@ function GetData()
 	//月別報告内容取得
 	// mysqlへの接続
 	$mysqli = new mysqli(HOST, USER, PASS);
-	print("ここ⑤");
+
 	if ($mysqli->connect_errno) {
 		print('<p>データベースへの接続に失敗しました。</p>' . $mysqli->connect_error);
 		exit();
@@ -719,7 +719,7 @@ function GetData()
 
 	$result = $mysqli->query($query);
 
-	print("●●".$query ."<BR>");
+	//print("●●".$query ."<BR>");
 
 	if (!$result) {
 		print('クエリーが失敗しました。' . $mysqli->error);
@@ -802,7 +802,7 @@ function GetData()
 
 	$result2 = $mysqli->query($query2);
 
-	print("●●".$query2 ."<BR>");
+	//print("●●".$query2 ."<BR>");
 
 	if (!$result2) {
 		print('クエリーが失敗しました。' . $mysqli->error);
@@ -836,7 +836,7 @@ function GetData()
 
 	$result3 = $mysqli->query($query3);
 
-	print("●3●".$query3 ."<BR>");
+	//print("●3●".$query3 ."<BR>");
 
 	if (!$result3) {
 		print('クエリーが失敗しました。' . $mysqli->error);
@@ -911,7 +911,7 @@ function GetData()
 
 		$result4 = $mysqli->query($query4);
 
-		print("●3●".$query3 ."<BR>");
+		//print("●3●".$query3 ."<BR>");
 
 		if (!$result4) {
 			print('クエリーが失敗しました。' . $mysqli->error);
